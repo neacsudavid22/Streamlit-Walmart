@@ -1,5 +1,19 @@
-﻿# Streamlit-Walmart
+﻿# Streamlit Walmart Dashboard
 
-Acest proiect analizează datele de vânzări și stocuri ale Walmart, cu scopul de a evidenția modalitățile prin care vizualizarea eficientă a informațiilor poate sprijini deciziile economice legate de gestionarea inventarului și optimizarea operațiunilor.
+This project analyzes Walmart sales and inventory data to highlight how effective visualizations can support inventory management and operational decisions.
 
-Accesibil prin: https://neacsudavid22-streamlit-walmart-main-2oodkv.streamlit.app/
+Live demo: https://neacsudavid22-streamlit-walmart-main-2oodkv.streamlit.app/
+
+## Contents
+- `main.py` - Streamlit app (data loading, processing, and visualizations).
+- `Walmart.csv` - Dataset used by the app (expected at project root).
+- `requirements.txt` - Python dependencies.
+- `.streamlit/`, `.devcontainer/`, `.vscode/` - optional environment and editor configs.
+
+## Features
+- Interactive sidebar filters (store location, category).
+- Key metrics: total sales, transaction count, average basket size.
+- Time-series sales with seasonal coloring.
+- Sales by age group and gender.
+- Sales by weather, holiday vs. normal day, and weekday trends.
+- Promotion trends with handling when no promotion data exists.
